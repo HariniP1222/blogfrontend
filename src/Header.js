@@ -2,6 +2,7 @@
 import React from "react";
 import './web.css';
 import { Navigate, useNavigate } from "react-router-dom";
+
 function Header()
 {
     const navigate = useNavigate(); // Initialize useNavigate
