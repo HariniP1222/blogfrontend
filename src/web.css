@@ -1,3 +1,4 @@
+
 .h{
     background-color: rgb(237, 190, 81);
     color:aliceblue;
@@ -20,7 +21,7 @@
  
 }
 .img{
-    background-image: url("D:\react\finalproject\fitness\src\images\screenshot.png");
+    background-image: url("../src/images/screenshot.png");
     height:615px;
     background-position: center;
     background-repeat: no-repeat;

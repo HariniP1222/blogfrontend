@@ -1,6 +1,7 @@
 
 import React from "react";
 import './web.css';
+// import screenshot from '../src/images/'
 import { Navigate, useNavigate } from "react-router-dom";
 
 function Header()
@@ -13,6 +14,7 @@ function Header()
     };
     return(
         <>
+        {/* <img src={screenshot}/> */}
         <div class="h">
             
             <ul>
