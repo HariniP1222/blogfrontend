@@ -1,0 +1,46 @@
+.h{
+    background-color: rgb(237, 190, 81);
+    color:aliceblue;
+    width:100%;
+    display:grid;
+    top:0;
+    left:0;
+    height:85px;
+    
+}
+.h ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left:450px;
+    padding-right:450px;
+    top:0;
+    left:0;
+    padding-bottom: 30px;
+    padding-top: 20px;
+ 
+}
+.img{
+    background-image: url("D:\react\finalproject\Screenshot 2024-08-10 223810.png");
+    height:615px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    display:grid;
+    top:0;
+    left:0;
+    color:rgba(0, 3, 5, 0.444);
+    font-size: 2.5em;
+    line-height: 0.3;
+    padding-top: 30px;
+   
+}
+.img a{
+   
+    color: rgba(0, 3, 5, 0.444);
+    text-decoration: none;
+}
+
+#kc{
+    font-size:large;
+}

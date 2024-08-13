@@ -1,0 +1,54 @@
+.h{
+    background-color: darkblue;
+    color:aliceblue;
+    width:100%;
+    display:grid;
+    top:0;
+    left:0;
+    height:80px;
+    
+}
+.h ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left:450px;
+    padding-right:450px;
+    top:0;
+    left:0;
+    padding-bottom: 30px;
+ 
+}
+.img{
+    display: grid;
+    grid-template-columns:auto auto;
+    
+}
+.img1{
+    background-image: url(https://st2.depositphotos.com/1655708/9312/i/450/depositphotos_93125000-stock-photo-silhouette-of-a-beautiful-yoga.jpg);
+    background-repeat:no-repeat;
+    background-size:780px 360px;
+    height:310px;
+    background-position: center;
+    
+}
+.img2{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230806/pngtree-health-wellness-image_12980918.jpg);
+    background-repeat:no-repeat;
+    background-size:780px 340px;
+    height:310px;
+    background-position: center;
+}
+.img4{
+    background-image: url(https://web-back.perfectgym.com/sites/default/files/styles/460x/public/fit%20stats.jpg?itok=nfF02G2C);
+    background-repeat:no-repeat;
+    background-size:758px 310px;
+    height:310px;
+    background-position: center;
+}
+.img3{
+    background-image: url(https://s1.1zoom.me/b5050/379/Pastry_Juice_Fruit_Cookies_Diet_Healthy_eating_584170_1600x1200.jpg);
+    background-size:755px 310px;
+    height:310px;
+    background-repeat:no-repeat;
+    background-position: center;
+}

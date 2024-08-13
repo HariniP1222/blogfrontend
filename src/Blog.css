@@ -1,0 +1,148 @@
+
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+  }
+  
+  /* Container Styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Layout Styles */
+  .layout {
+    display: flex;
+    flex: 1;
+    
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100%;
+    overflow: hidden; /* Remove scrolling */
+    display: block;
+    margin-top: 100px;
+  }
+  
+  .sidebar-section {
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .sidebar-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .sidebar-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+  }
+  
+  .sidebar-section ul li {
+    margin-bottom: 10px;
+   
+  }
+  
+  .sidebar-section ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  .sidebar-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .math-game {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .math-game h3 {
+    margin-top: 0;
+  }
+  
+  .math-game input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .resource {
+    margin-bottom: 10px;
+  }
+  
+  .resource-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+   height:2600px;
+   padding-bottom: 0;
+  }
+  
+  .post {
+    margin-bottom: 20px;
+  }
+  
+  .post-img {
+    width: 100%; /* Make the image cover the full width of the container */
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensures the image covers the entire space */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    image-rendering: -webkit-optimize-contrast; /* Improve image clarity in some browsers */
+    image-rendering: crisp-edges; /* Improve image clarity in some browsers */
+  }
+  
+  .post-details {
+    margin-top: 20px;
+  }
+  
+  .post-details h3 {
+    margin-bottom: 1px;
+  }
+  
+  .post-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    display:block;
+  }
+  
+  /* Footer Styles */
+ .footer{
+    width:100%;
+    background-color: #719972;
+   margin-top: 100px;
+ }

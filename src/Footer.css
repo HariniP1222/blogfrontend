@@ -1,0 +1,50 @@
+.foo {
+    background-color: #800000; /* Maroon background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    clear: both; /* Ensure footer clears any floated elements */
+    margin-top: 350px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block; /* Ensure links align horizontally */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    margin: 10px 0;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    display: inline-block; /* Ensure icons align horizontally */
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle; /* Align icons properly */
+}
+
+.footer-copy {
+    font-size: 14px;
+    margin-top: 10px;
+}

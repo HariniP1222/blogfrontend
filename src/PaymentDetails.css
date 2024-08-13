@@ -1,0 +1,77 @@
+/* PaymentDetails.css */
+.payment-details-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .main-content p {
+    color: #7f8c8d;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+  .bill-summary {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bill-summary h2 {
+    margin-top: 0;
+    color: #34495e;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .bill-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #bdc3c7;
+  }
+  
+  .bill-item .label {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .bill-item .amount {
+    color: #27ae60;
+  }
+  
+  .bill-item.total {
+    border-bottom: none;
+    padding-top: 15px;
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #95a5a6;
+  }
+  .footer p{
+    margin:0;
+  }
+  
